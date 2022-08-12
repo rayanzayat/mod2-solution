@@ -1,1 +1,77 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
 
+@media (min-width: 992px) {
+     /* desktop view (992px and above) */
+     .s1, .s2, .s3 {
+        float: left;
+        width: 33%;
+     }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /* tablet view (between 768px and 991px) */
+    .s1, .s2 {
+        float: left;
+        width: 50%;
+    }
+
+    .s3 {
+        clear: both;
+    }
+}
+
+#main {
+    text-align: center;
+}
+
+h1 {
+    margin: 10px;
+    font-size: 275%;
+}
+
+.row {
+    width: 100%;
+    margin: 5px;
+}
+
+.s1, .s2, .s3 {
+    text-align: center;
+}
+
+section {
+    background-color: gray;
+    border: 1px solid black;
+    margin: 30px;
+}
+
+h2 {
+    position: relative;
+    width: 35%;
+    float: right;
+    padding: .5%;
+}
+
+.s1 h2 {
+    background-color: hotpink;
+    border: 1px solid black;
+}
+
+.s2 h2 {
+    background-color: red;
+    border: 1px solid black;
+}
+
+.s3 h2 {
+    background-color: lightyellow;
+    border: 1px solid black;
+}
+
+p {
+    padding: 15px;
+    clear: both;
+}
